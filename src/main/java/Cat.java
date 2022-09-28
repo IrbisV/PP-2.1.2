@@ -1,5 +1,11 @@
 public class Cat {
-    public void createCat() {
-        System.out.println("Cat create");
+    private String message;
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
