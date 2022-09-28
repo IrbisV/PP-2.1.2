@@ -12,7 +12,7 @@ public class AppConfig {
         return helloWorld;
     }
     @Bean(name="cat")
-    @Scope
+    @Scope("prototype")
     public Cat getCat() {
         Cat cat = new Cat();
         cat.setMessage("Cat create");
